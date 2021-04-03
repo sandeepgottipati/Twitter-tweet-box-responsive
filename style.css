@@ -1,0 +1,87 @@
+/*container*/
+body{
+background-color: cornflowerblue;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: ghostwhite;
+    position: relative;
+   width:500px;
+   height:auto;
+   margin:10% 33%;
+   border-radius:2%;
+}
+.header{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h3{
+    margin-top:2%;
+    font-size:1rem;
+    margin-bottom:0px;
+}
+.name{
+    color:black;
+    font-family:verdana;
+    font-size:1rem;
+    text-decoration:none;
+}
+.name:hover{
+    text-decoration:underline;
+    color:cornflowerblue;
+}
+h4{
+    position:absolute;
+    top:6%;
+    left: 17%;
+    color:grey;
+}
+.header img{
+    margin-top:2%;
+    margin-left: 1%;
+    width:15%;
+    height:8%;
+    border-radius:100%;
+}
+.text-body{
+    text-align:center;
+    margin-top:10px;
+}
+p{
+    font-size: 25px;
+    /* margin-left: 10px; */
+    text-align: center;
+}
+.grayed{
+    float:left;
+    margin-left: 1%;
+    color: grey;
+    text-decoration: none;
+}
+.grayed:hover{
+    text-decoration: underline;
+}
+hr{
+ border: 0.5% solid grey;
+ width: 100%;
+}
+/*footer*/
+.stats{
+    color:grey;
+    text-decoration: none;
+    padding-left:2%;
+    padding-bottom: 2%;
+}
+.stats:hover{
+    text-decoration: underline;
+    color:coral;
+}
+@media(max-width:767px){
+    .container{
+        margin-left:0px;
+        width: 100%;
+    }
+}
